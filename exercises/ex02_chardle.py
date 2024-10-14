@@ -8,9 +8,8 @@ def input_word() -> str:
     if len(word) == 5:  # ensures the word is 5 characters only
         return word
     else:
-        print("Error: Word must contain 5 Characters")
-        exit()  # exits the code
-        return word
+        print("Error: Word must contain 5 characters.")
+        exit()
 
 
 def input_letter() -> str:
@@ -20,7 +19,6 @@ def input_letter() -> str:
     else:
         print("Error: Character must be a single character")
         exit()
-        return letter
 
 
 def contains_char(word: str, letter: str) -> None:
